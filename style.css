@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body{
+  background-color: ;
+  font-family: 'Open Sans', sans-serif;
+  color: #808080;
+  font-size: 0.9rem;
+  /*filter: invert(100%);*/
+}
+
+.page{
+ background-color: #ffffff;
+ width: 90%;
+ height: 70.1rem;
+ margin: 0 auto;
+ margin-bottom: 0.5rem;
+ margin-top: 0.5rem;
+ box-shadow: 0 0 0.8rem rgba(0,0,0,0.1);
+}
+
+#cv-content{
+  padding:3rem;
+}
+#cv-details-text header h1{
+  font-family: 'Source Serif Pro', serif;
+  color: #737373;
+  font-size: 2.5rem;
+  padding-bottom: 0.5rem;
+}
+#cv-details-text header h2{
+  color: #3ACEA9;
+  padding-bottom: 1rem;
+  font-weight: 600;
+}
+#cv-details-text header p{
+  font-style: italic;
+  padding-bottom: 1rem;
+}
+#cv-education h3, #cv-skills h3,
+#cv-programming h3, #cv-tools h3,
+#cv-language h3, #cv-portfolio h3,
+#cv-experience h3{
+  font-weight: bold;
+  color: #3ACEA9;
+  padding-bottom: 0.5rem;
+  font-size: 1rem;
+}
+#cv-education, #cv-skills,
+#cv-programming, #cv-tools,
+#cv-language, #cv-contact,
+#cv-experience{
+  margin-bottom: 1rem;
+}
+aside{
+  margin-top: 2.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #999999;
+  flex:1;
+  padding-left:1rem;
+  line-height: 1.8rem;
+}
+body a{
+  text-decoration: none;
+  color: #999999;
+}
+body a:hover,
+body a:active{
+  color: #060606;
+  transition: color 1s;
+}
+
+#cv-education .edu-txt, #cv-straypaws,
+#cv-edoo, #cv-lee, .cv-exp{
+  border-left: 0.1rem solid #d9d9d9;
+  padding-left: 1rem;
+}
+#cv-education p{
+  font-weight: 600;
+}
+#cv-education .cv-date{
+  font-size:0.7rem;
+  color: #999999;
+}
+#cv-education .cv-school{
+  font-weight: normal;
+}
+
+#cv-details{
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 0.1rem solid #d9d9d9;
+  margin-bottom: 1rem;
+}
+#cv-contact .fa{
+  display: flex;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+#cv-details-text{
+  flex: 2.5;
+}
+#cv-details-text{
+  border-right: 0.1rem solid #d9d9d9;
+  padding-right: 1rem;
+}
+#cv-contact p{
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 0.5rem;
+}
+#cv-portfolio h4{
+  font-weight: bold;
+}
+#cv-portfolio p{
+  font-size: 0.9rem;
+}
+#cv-straypaws{
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+#cv-edoo{
+  margin-bottom: 1rem;
+}
+
+.cv-module,.cv-exp{
+  font-weight: normal;
+  font-style: italic;
+  font-size: 0.7rem;
+}
+
+
+#cv-theme{
+  margin: 1rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cv-theme p{
+  padding-right: 0.5rem;
+}
+#togg{
+  display: none;
+}
+
+@media screen and (min-width: 900px){
+	.page{
+		width: 793.7px;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.page{
+		width:100%;
+    height: auto;
+	}
+  #cv-details{
+    flex-direction: column;
+  }
+  #cv-details-text{
+    border-right: 0;
+    padding-right: 0;
+  }
+  aside{
+    padding-left: 0;
+  }
+}
