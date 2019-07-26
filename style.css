@@ -421,7 +421,7 @@ footer p{
 #burger{
   font-size: 1.5rem;
   display: none;
-  flex: 1;
+  margin-left: auto;
   text-align: right;
   animation: moveInUp .3s ease-out;
   backface-visibility: hidden;
