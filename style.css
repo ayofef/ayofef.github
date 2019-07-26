@@ -179,11 +179,11 @@ nav ul li a:active{
   font-size: 0.9rem;
   line-height: 1.4rem;
 }
-#p5-javascript:link,
-#p5-javascript:visited{
+.abt--link:link,
+.abt--link:visited{
 	color: #F2994A;
 }
-#p5-javascript:hover{
+.abt--link:hover{
 	color: #000;
 	transition: color 1s ease-out;
 }
