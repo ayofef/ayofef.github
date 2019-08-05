@@ -28,6 +28,7 @@ time, mark, audio, video {
 }
 body{
   font-family: 'Montserrat', sans-serif;
+  font-display: auto;
   color: #1C1C1E;
   overflow-x: hidden;
 
